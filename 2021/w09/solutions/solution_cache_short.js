@@ -1,0 +1,1 @@
+const g=h=>{let t=h.toString(16);return(t=1==t.length?"0"+t:t).toUpperCase()},h=Array(256).fill().map((h,t)=>g(t)),c2h=t=>t<0?h[0]:t>255?h[255]:h[t];module.exports=((h,t,e)=>"#"+c2h(h)+c2h(t)+c2h(e));
