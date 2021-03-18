@@ -1,0 +1,1 @@
+module.exports=(i)=>{const r=new Map();for(let l of i.toLowerCase()){const v=r.get(l);if(v){r.set(l,{l,ch:v.ch,c:v.c+1})}else{r.set(l,{l,ch:l.charCodeAt(),c:1})}}return[...r.values()].sort((a,b)=>b.c-a.c||a.ch-b.ch).map((e)=>e.l)}

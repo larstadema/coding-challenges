@@ -11,6 +11,7 @@ test('passes basic predefined tests', () => {
   expect(solution('The quick brown fox jumps over the lazy dog')).toStrictEqual([' ', 'o', 'e', 'h', 'r', 't', 'u', 'a', 'b', 'c', 'd', 'f', 'g', 'i', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 's', 'v', 'w', 'x', 'y', 'z']);
   expect(solution(`$jQuery('#app').boot().forEach((something) => console.log('@app ' + something + 'has booted!!!'));`)).toStrictEqual(['o', ' ', '\'', 'e', '(', ')', 'a', 'h', 'p', 's', 't', '!', '.', 'g', 'n', '+', 'b', 'c', 'i', 'l', 'm', 'r', '#', '$', ';', '=', '>', '@', 'd', 'f', 'j', 'q', 'u', 'y']);
 
+  // expect(solution(",/S!6dJ.\"")).toStrictEqual(["!","\"",",",".","/","6","d","j","s"])
 });
 
 
